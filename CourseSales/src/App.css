@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+body{
+  background-image: url("abc.jpg");
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 70px;
+}
+
+.App-header {
+  background-image: url("abc.jpg");
+
+  font-size: 39px;
+  height: 130px;
+  padding: 50px;
+  color: black;
+  font-weight: bolder;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+h1{
+    font-size:30px;
+    margin-bottom:20px;
+    color: #273c75;
+}
+
+#c1 p{
+    display: block;
+    padding: 20px 20px;
+    background-color: #222;
+    color: white;
+    position: relative;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+mark{
+  background-color: #82ccdd;
+  color: black;
+}
+
+#c1 p b{
+    position: absolute;
+    right: 30px;
+    width: 100px;
+    color: white;
+    text-align: right;
+}
+
+#c1 p:hover{
+    background-color:#52B3D9;
+    color:#fff;
+}
+
+#c1 p.active{
+    color:#fff;
+    background-color:#446CB3;
+}
+
+#c1 p.active b{
+    color: #fff;
+}
+
+
+#total{
+    background: #3FC380 !important;
+    cursor: default !important;
+    padding-top: 10px !important;
+    display: block;
+    height:150px;
+    width:500px;
+    float: right;
+    font-size: 50px;
+}
+#demo{
+  display: block;
+  width:1000px;
+  height:150px;
+  text-align: center;
+}
